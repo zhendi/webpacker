@@ -19,7 +19,7 @@ module.exports = class extends Environment {
       result.output.filename = '[name]-[hash].js'
     }
     result.output.pathinfo = true
-    result.devtool = 'cheap-eval-source-map'
+    result.devtool = 'inline-source-map'
     result.devServer = {
       clientLogLevel: 'none',
       compress: true,
